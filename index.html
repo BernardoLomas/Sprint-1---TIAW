@@ -78,24 +78,31 @@
                 <!--Carrossel-->
                 <div class="carrossel-container">
                     <div class="carrossel">
-                        <div class="slide"><img src="imgstiaw/bitcoin.jpg" alt="Imagem 1"></div>
-                        <div class="slide"><img src="imgstiaw/bolsa.jpg" alt="Imagem 2"></div>
-                        <div class="slide"><img src="imgstiaw/ouro3.jpg" alt="Imagem 3"></div>
+                        <div class="slide" data-id="bitcoin">
+                            <img src="imgstiaw/bitcoin.jpg" alt="Imagem 1">
+                            <button class="favorito-btn" data-id="bitcoin">♡</button>
+                        </div>
+                        <div class="slide" data-id="bolsa">
+                            <img src="imgstiaw/bolsa.jpg" alt="Imagem 2">
+                            <button class="favorito-btn" data-id="bolsa">♡</button>
+                        </div>
+                        <div class="slide" data-id="ouro">
+                            <img src="imgstiaw/ouro3.jpg" alt="Imagem 3">
+                            <button class="favorito-btn" data-id="ouro">♡</button>
+                        </div>
                     </div>
 
                     <button class="prev">&#10094;</button>
                     <button class="next">&#10095;</button>
                 </div>
+
+                <!-- Área para exibir as informações -->
+                <div id="info-investimento" class="info-investimento">
+                    <h3>Selecione um investimento</h3>
+                    <p>Clique em uma imagem acima para ver mais detalhes.</p>
+                </div>
+
                 <!--Fim do Carrossel-->
-                <h3>Criptomoedas</h3>
-                <p>&nbspInvestir em criptomoedas pode oferecer altos retornos, mas também envolve riscos significativos
-                    devido à sua volatilidade. Estude o mercado antes de aplicar.</p>
-                <h4>Bolsa de valores</h4>
-                <p>&nbspInvestir na bolsa permite ser sócio de grandes empresas. Com estratégia e disciplina, é possível
-                    construir patrimônio a longo prazo com ações.</p>
-                <h4>Investimento em ouro</h4>
-                <p>&nbspO ouro é considerado um investimento seguro em tempos de crise. Ele protege o patrimônio contra
-                    a inflação e oscilações econômicas globais.</p>
             </div>
         </div>
     </section>
